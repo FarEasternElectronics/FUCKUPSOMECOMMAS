@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Kanit:400');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Teko:300');
+
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.shadow-bottom {
+    box-shadow: 0 5px 10px -5px #333;
+}
+
+.shadow-top {
+    box-shadow: 0 -5px 10px -5px #333;
+}
+
+.shadow-top-bottom {
+    box-shadow: 0 0 10px #333;
+}
+
+header {
+    display: flex;
+}
+
+#header-other {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+/*----------HEADER----------*/
+
+
+
+#header-home {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/chineselion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .chinese-lion {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.chinese-lion img {
+
+    width: 100%;
+    height: auto;
+} */
+
+#header-bar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.84);
+    border-bottom: 1px solid #ccc;
+    z-index: 1;
+}
+
+#left-head {
+    display: flex;
+    flex-flow: row;
+    height: auto;
+    width: auto;
+    align-items: center;
+    /* z-index: 1; */
+}
+
+#right-head {
+    display: flex;
+    /* z-index: 1; */
+}
+
+/*----------LOGO----------*/
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo #feetext {
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 3px;
+}
+
+#logo-image {
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+/* #logo #feetext {
+    align-self: center;
+} */
+
+
+
+
+/*----------END LOGO----------*/
+
+/*----------NAVBAR----------*/
+
+#nav-bar a {
+    display: inline-block;
+    width: auto;
+    margin-left: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    /* background-color: orange;*/
+}
+
+#nav-bar a:hover {
+    color: #ff3300;
+}
+
+/*----------END NAVBAR----------*/
+
+
+/*----------SEARCH ICON----------*/
+#search-image {
+    margin-right: 20px;
+    
+}
+
+#search-image img {
+    height: 20px;
+    width: auto;
+}
+
+/*----------ENDSEARCH ICON----------*/
+
+
+
+/*----------END HEADER----------*/
+
+
+
+/*----------BODY----------*/
+.hooks {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    /* background-color: pink; */
+}
+
+.main-page-container {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#hook {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#product-scroll {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------END BODY----------*/
+
+/*----------FOOTER----------*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* font-family: 'Kanit:800', sans-serif; */
+    /* border-top: 1px solid #ccc; */
+    /* background-color: orange; */
+}
+
+.footer-container {
+    margin: 20px;
+
+}
+
+.footer-words {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#footer-email {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+}
+
+.email-logo img {
+    height: 40px;
+    width: auto;
+    
+}
+/*----------END FOOTER----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE----------*/
+
+/* #wrapper {
+    margin:0 40px;
+} */
+
+
+/*----------HEADER----------*/
+
+
+
+/*----------END HEADER----------*/
+
+
+
+/*----------PRODUCTS----------*/
+
+/* #shop {
+    padding: 80px 0 0;
+} */
+
+.shop-head {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Kanit', sans-serif;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+     /* background-color: orange; */
+}
+
+.section-header a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 80px;
+}
+
+.animated-under::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ccc;
+    transition: width 1s;
+}
+
+.animated-under:hover::after {
+    width: 100%;
+}
+
+#products {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+#products .product {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey; */
+    margin: 30px 0;
+    width: 20%;
+}
+
+#products img {
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    /* background-color: yellow; */
+}
+
+.product-discr {
+    align-self: center;
+    width: 110%;
+    height: auto;
+    text-align: center;
+    /* justify-content: center; */
+    /* background-color: pink; */
+    font-family: 'Kanit', sans-serif;
+}
+
+/*----------END PRODUCTS----------*/
+
+
+/*----------END SHOP PAGE END SHOP PAGE END SHOP PAGE END SHOP PAGE END SHOP PAGE----------*/
+
+
+/*----------CONTACT PAGE CONTACT PAGE CONTACT PAGE CONTACT PAGE CONTACT PAGE CONTACT PAGE----------*/
+
+.contact {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.words {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container-1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    margin: 50px;
+}
+
+/*----------END CONTACT PAGE END CONTACT PAGE END CONTACT PAGE END CONTACT PAGE----------*/
+
+
+
+/* Basic Styling */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+
+  /* Columns */
+.left-column {
+    width: 65%;
+    position: relative;
+  }
+   
+  .right-column {
+    width: 35%;
+    margin-top: 60px;
+  }
+
+  /* Left Column */
+.left-column img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+   
+  .left-column img.active {
+    opacity: 1;
+  }
+
+  /* Product Description */
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  .product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+  }
+
+  /* Product Color */
+.product-color {
+    margin-bottom: 30px;
+  }
+   
+  .color-choose div {
+    display: inline-block;
+  }
+   
+  .color-choose input[type=&quot;radio&quot;] {
+    display: none;
+  }
+   
+  .color-choose input[type=&quot;radio&quot;] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+   
+  .color-choose input[type=&quot;radio&quot;] + label span {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  }
+   
+  .color-choose input[type=&quot;radio&quot;]#red + label span {
+    background-color: #C91524;
+  }
+  .color-choose input[type=&quot;radio&quot;]#blue + label span {
+    background-color: #314780;
+  }
+  .color-choose input[type=&quot;radio&quot;]#black + label span {
+    background-color: #323232;
+  }
+   
+  .color-choose input[type=&quot;radio&quot;]:checked + label span {
+    background-image: url(images/check-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Cable Configuration */
+.cable-choose {
+    margin-bottom: 20px;
+  }
+   
+  .cable-choose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+  }
+   
+  .cable-choose button:hover,
+  .cable-choose button:active,
+  .cable-choose button:focus {
+    border: 2px solid #86939E;
+    outline: none;
+  }
+   
+  .cable-config {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+   
+  .cable-config a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  .cable-config a:before {
+    content: &quot;?&quot;;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 142, 215, 0.5);
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-right: 5px;
+  }
+
+  /* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+  }
+   
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+   
+  .cart-btn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+  }
+  .cart-btn:hover {
+    background-color: #64af3d;
+  }
+
+
+
+/*----------SMARTPHONES PAGE SMARTPHONES PAGE SMARTPHONES PAGE SMARTPOHONES PAGE----------*/
+
+  .smartphones-header {
+      display: flex;
+      justify-content: center;
+      font-size: 3em;
+      font-family: 'Kanit', sans-serif;
+  }
+
+
+  /*----------END SMARTPHONES PAGE END SMARTPHONES PAGE END SMARTPHONES PAGE----------*/
